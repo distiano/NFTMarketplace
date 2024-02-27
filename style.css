@@ -1,0 +1,281 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #2b2b2b;
+  color: white;
+}
+
+.navbar-brand {
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+}
+
+.nav-item {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.button-sign-up {
+  width: 152px;
+  height: 60px;
+  padding: 0px, 30px, 0px, 30px;
+  border-radius: 20px;
+  gap: 12px;
+  background-color: #a259ff;
+  color: white;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 67px;
+  font-weight: 600;
+  line-height: 74px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+h3 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.hero,
+.trending p {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+}
+
+.hero button {
+  width: 224px;
+  height: 60px;
+  padding: 0px, 50px, 0px, 50px;
+  border-radius: 20px;
+  gap: 12px;
+  background-color: #a259ff;
+  color: white;
+  font-weight: 600;
+}
+
+.hero .stats h4 {
+  font-family: 'Space Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.button-collection {
+  width: 100px;
+  height: 100px;
+  padding: 32px, 15px, 32px, 15px;
+  border-radius: 20px;
+  gap: 10px;
+  font-family: 'Space Mono', monospace;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35px;
+  text-align: center;
+  background-color: #a259ff;
+  color: white;
+}
+
+.top-artists {
+  width: 240px;
+  height: 238px;
+  padding: 20px;
+  border-radius: 20px;
+  gap: 20px;
+  background-color: #3b3b3b;
+}
+
+.top-artists .number {
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #2b2b2b;
+  font-family: 'Space Mono', monospace;
+  color: #858584;
+  font-size: 16px;
+}
+
+.top-creators button {
+  width: 247px;
+  height: 60px;
+  padding: 0px, 50px, 0px, 50px;
+  border-radius: 20px;
+  border: 2px;
+  gap: 12px;
+  border: 2px solid #a259ff;
+}
+
+.discover-more button {
+  width: 187px;
+  height: 60px;
+  padding: 0px, 50px, 0px, 50px;
+  border-radius: 20px;
+  border: 2px;
+  gap: 12px;
+  border: 2px solid #a259ff;
+}
+
+.discover-more .card h6 {
+  font-family: 'Space Mono', monospace;
+  font-size: 12px;
+  font-weight: 400;
+  color: #858584;
+}
+
+.discover-more .card p {
+  font-family: 'Space Mono', monospace;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.how-it-works h5 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 31px;
+  margin-top: 25px;
+}
+
+.subscribe-widget input {
+  width: 425px;
+  height: 60px;
+  padding: 16px, 0px, 16px, 20px;
+  border-radius: 20px;
+  gap: 12px;
+}
+
+.subscribe-widget button {
+  width: 211px;
+  height: 60px;
+  padding: 0px, 50px, 0px, 50px;
+  border-radius: 20px;
+  gap: 12px;
+  background-color: #a259ff;
+}
+
+.card {
+  background-color: #3b3b3b;
+  border-radius: 20px;
+}
+
+.how-it-works .steps {
+  padding: 10px, 30px, 30px, 30px;
+  border-radius: 20px;
+  background-color: #3b3b3b;
+}
+
+.subscribe-widget {
+  border-radius: 20px;
+  background-color: #3b3b3b;
+}
+
+footer {
+  background-color: #3b3b3b;
+  color: #858584;
+}
+
+.social-media a {
+  color: #858584;
+  font-size: 32px;
+  margin-right: 15px;
+}
+
+.footer-info a {
+  text-decoration: none;
+  color: #858584;
+}
+
+.footer-info a:hover {
+  text-decoration: underline;
+}
+
+footer h5 {
+  font-family: 'Space Mono', monospace;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 35px;
+  color: white;
+}
+
+.footer input {
+  width: 420px;
+  height: 60px;
+  border-radius: 20px;
+}
+
+.footer button {
+  background-color: #a259ff;
+  width: 179px;
+  height: 60px;
+  padding: 0px, 50px, 0px, 50px;
+  border-radius: 20px;
+  gap: 12px;
+  color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    width: 1050px;
+    height: 544px;
+    gap: 30px;
+  }
+
+  .trending,
+  .top-creators,
+  .browse-categories,
+  .discover-more,
+  .how-it-works {
+    width: 1050px;
+    gap: 30px;
+  }
+
+  .hero .card {
+    width: 510px;
+    height: 510px;
+  }
+
+  .browse-categories .card {
+    width: 240px;
+    height: 316px;
+    border-radius: 20px;
+    background-color: #3b3b3b;
+  }
+
+  .discover-more .card {
+    width: 330px;
+    height: 469px;
+    border-radius: 20px;
+    background-color: #3b3b3b;
+  }
+
+  .how-it-works .steps {
+    width: 330px;
+    height: 439px;
+    padding: 10px, 30px, 30px, 30px;
+    border-radius: 20px;
+    gap: 20px;
+    background-color: #3b3b3b;
+  }
+
+  .subscribe-widget {
+    width: 1050px;
+    height: 430px;
+    padding: 60px;
+    border-radius: 20px;
+    gap: 80px;
+    background-color: #3b3b3b;
+  }
+}
